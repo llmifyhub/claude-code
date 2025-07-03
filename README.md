@@ -1,6 +1,6 @@
-# Docker Setup with Cloud Code
+# Docker Setup with Claude Code
 
-This README provides instructions for setting up and running the Docker environment with Cloud Code CLI installed.
+This README provides instructions for setting up and running the Docker environment with Claude Code CLI installed.
 
 ## Prerequisites
 
@@ -35,12 +35,12 @@ This README provides instructions for setting up and running the Docker environm
    docker exec -it <container_name> /bin/bash
    ```
 4. Inside the container, navigate to the workspace (already your working directory).
-5. Launch Cloud Code CLI:
+5. Launch Claude Code CLI:
 
    ```bash
-   clod
+   claude
    ```
-6. Follow the interactive prompts to configure your Cloud Code keys and settings.
+6. Follow the interactive prompts to configure your Claude Code keys and settings.
 
 All changes and generated files in `/workspace` will be synced to your local filesystem.
 
